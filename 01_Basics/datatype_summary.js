@@ -36,4 +36,26 @@ console.log(typeof outsideTemp);
 console.log(typeof scorevalue);
 console.log(typeof myFunction);
 
-console.log(typeof anotherID)
+console.log(typeof anotherID )
+
+//------------------------------------------------TYPES OF MEMORIES------------------------------------------------
+//1- Stack(Primitive)
+//2- Heap(non primitive)
+
+let username = "Anurag"
+let username1 = username
+username1 = "mohan" //change the copy provided
+console.log(username)
+console.log(username1);
+
+let person1Obj = {
+    email : "anurag@google.com",
+    age : 21,
+}
+
+let person2Obj = person1Obj;
+person2Obj.email = "user@google.com"
+
+// update the entire reference
+console.log(person1Obj);
+console.log(person2Obj);
