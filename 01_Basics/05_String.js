@@ -13,6 +13,29 @@ console.log(person.__proto__);
 console.log(person.length);
 console.log(person.toUpperCase);
 console.log(person.charAt(2));
+console.log(person.charAt(3))
+console.log(person.indexOf("g"));
+
+const p1 = person.substring(0, 4)
+console.log(p1)
+
+const p2 = person.slice(3, 4)
+console.log(p2)
+
+const pr1 = "      anurag tiwari is the best"
+console.log(pr1);
+console.log(pr1.trim());//remove unneccessory space and have to method start and end
+
+const url = "https:/youtube.com anurag"
+console.log(url);
+console.log(url.replace(" ","-"));
+
+console.log(url.split('-'));
+console.log(url.includes('anurag'));
+
+
+
+
 
 
 
