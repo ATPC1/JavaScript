@@ -23,7 +23,7 @@ function one(){
 // one();
 
 if(true){
-    consrt username = "anurag"
+    const username = "anurag"
     if(username === "anurag")
     {
         const website = "anurag.com"
